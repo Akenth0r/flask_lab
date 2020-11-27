@@ -1,0 +1,12 @@
+{
+  "file name": "lotr.txt",
+  "words" : [
+    "Sword",
+    "Frodo",
+    "Ring",
+    "Legolas"
+  ],
+  "min_len": 20,
+  "max_len": 200,
+  "examples": 5
+}
