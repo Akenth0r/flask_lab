@@ -9,7 +9,7 @@ import json
 #        return f
 
 
-def get_sentences_from_file(filename: str = "lotr.txt", lang: str = "english") -> List[str]:
+def get_sentences_from_file(filename: str = "./lotr.txt", lang: str = "english") -> List[str]:
     with open(filename, "r", encoding="utf-8") as book:
         text = book.read()
         sentences = sent_tokenize(text, lang)
